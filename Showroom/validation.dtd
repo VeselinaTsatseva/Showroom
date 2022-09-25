@@ -1,0 +1,38 @@
+        <!ELEMENT showroom (car)*>
+        <!ELEMENT car (brand, model, year, price, picture, color, type, seats, doors, weight, dimensions, engine, euroClass, transmission, fuel, features, trunkCapacity)*>
+        <!ELEMENT brand (#PCDATA)>
+        <!ELEMENT model (#PCDATA)>
+        <!ELEMENT year (#PCDATA)>
+        <!ELEMENT price (#PCDATA)>
+        <!ATTLIST price currency (лева|евро) "лева">
+        <!ELEMENT picture (#PCDATA)>
+        <!ELEMENT color (#PCDATA)>
+        <!ELEMENT type (#PCDATA)>
+        <!ELEMENT seats (#PCDATA)>
+        <!ELEMENT doors (#PCDATA)>
+        <!ELEMENT weight (#PCDATA)>
+        <!ELEMENT dimensions (length, width, height)*>
+        <!ELEMENT length (#PCDATA)>
+        <!ELEMENT width (#PCDATA)>
+        <!ELEMENT height (#PCDATA)>
+        <!ELEMENT engine (size, power, cylinders)*>
+        <!ELEMENT size (#PCDATA)>
+        <!ATTLIST size unit CDATA "см3">
+        <!ELEMENT power (#PCDATA)>
+        <!ATTLIST power unit CDATA "hp">
+        <!ELEMENT cylinders (#PCDATA)>
+        <!ELEMENT euroClass (#PCDATA)>
+        <!ELEMENT transmission (gears)*>
+        <!ATTLIST transmission type (автоматик|ръчна|полуавтоматик) "ръчна">
+        <!ELEMENT gears (#PCDATA)>
+        <!ELEMENT fuel (fuelConsumption, fuelType, tankCapacity)*>
+        <!ELEMENT fuelConsumption (#PCDATA)>
+        <!ATTLIST fuelConsumption unit CDATA "л/100км">
+        <!ELEMENT fuelType (#PCDATA)>
+        <!ELEMENT tankCapacity (#PCDATA)>
+        <!ATTLIST tankCapacity unit (литра|галони) "литра">
+        <!ELEMENT features (AC, ABS, rearCamera)*>
+        <!ELEMENT AC (#PCDATA)>
+        <!ELEMENT ABS (#PCDATA)>
+        <!ELEMENT rearCamera (#PCDATA)>
+        <!ELEMENT trunkCapacity (#PCDATA)>

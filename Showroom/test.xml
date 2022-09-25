@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE showroom SYSTEM "validation.dtd">
+
+<showroom>
+    <car>
+        <brand>Renault</brand>
+        <model>Clio</model>
+        <year>2016</year>
+        <price currency="евро">28444</price>
+        <color>Червен</color>
+        <type>Купе</type>
+        <seats>5</seats>
+        <doors>4</doors>
+        <weight>1860</weight>
+        <dimensions>
+            <length>4988</length>
+            <width>1890</width>
+            <height>1435</height>
+        </dimensions>
+        <engine>
+            <size unit="см3">1.7</size>
+            <power unit="hp">140</power>
+            <cylinders>6</cylinders>
+        </engine>
+        <euroClass>5</euroClass>
+        <transmission type="ръчна">
+            <gears>6</gears>
+        </transmission>
+        <fuel>
+            <fuelConsumption unit="л/100км">7</fuelConsumption>
+            <fuelType>Дизел</fuelType>
+            <tankCapacity unit="литра">50</tankCapacity>
+        </fuel>
+        <features>
+            <AC>да</AC>
+            <ABS>да</ABS>
+            <rearCamera>да</rearCamera>
+        </features>
+        <trunkCapacity>520</trunkCapacity>
+    </car>
+</showroom>

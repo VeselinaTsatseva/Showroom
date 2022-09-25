@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--<?xml-stylesheet type="text/xml" href="to-HTML2.xsl" version="1.0" ?>-->
+<!--<?xml-stylesheet type="text/xml" href="to-HTML2.xsl" version="1.0" ?>-->
+<!--<?xml-stylesheet type="text/xml" href="to-XML2.xsl" version="1.0" ?>-->
+<!--<?xml-stylesheet type="text/xml" href="to-XML2.xsl" version="1.0" ?>-->
+<?xml-stylesheet type="text/xml" href="to-text1.xsl" version="1.0" ?>
+<!DOCTYPE showroom SYSTEM "validation.dtd">
+
+<showroom>
+<car>
+    <brand>VW</brand>
+    <model>T-Roc</model>
+    <year>2017</year>
+    <price currency="лева">43650</price>
+    <picture>https://images.caradisiac.com/images/8/6/8/4/178684/S0-volkswagen-t-roc-un-diesel-puissant-arrive-604054.jpg</picture>
+    <color>Черен</color>
+    <type>SUV</type>
+    <seats>5</seats>
+    <doors>5</doors>
+    <weight>1505</weight>
+    <dimensions>
+        <length>4234</length>
+        <width>1819</width>
+        <height>1573</height>
+    </dimensions>
+    <engine>
+        <size unit="см3">2.0</size>
+        <power unit="hp">150</power>
+        <cylinders>4</cylinders>
+    </engine>
+    <euroClass>6</euroClass>
+    <transmission type="ръчна">
+        <gears>6</gears>
+    </transmission>
+    <fuel>
+        <fuelConsumption unit="л/100км">5</fuelConsumption>
+        <fuelType>Дизел</fuelType>
+        <tankCapacity unit="литра">55</tankCapacity>
+    </fuel>
+    <features>
+        <AC>да</AC>
+        <ABS>да</ABS>
+        <rearCamera>да</rearCamera>
+    </features>
+    <trunkCapacity>1237</trunkCapacity>
+</car>
+
+    <car>
+        <brand>VW</brand>
+        <model>Golf</model>
+        <year>2010</year>
+        <price currency="лева">12000</price>
+        <picture>https://preview2.netcarshow.com/Volkswagen-Golf_GTD-2010-1600-12.jpg</picture>
+        <color>Сив</color>
+        <type>Хечбек</type>
+        <seats>5</seats>
+        <doors>5</doors>
+        <weight>1154</weight>
+        <dimensions>
+            <length>4199</length>
+            <width>1786</width>
+            <height>1480</height>
+        </dimensions>
+        <engine>
+            <size unit="см3">1.2</size>
+            <power unit="hp">85</power>
+            <cylinders>4</cylinders>
+        </engine>
+        <euroClass>5</euroClass>
+        <transmission type="ръчна">
+            <gears>5</gears>
+        </transmission>
+        <fuel>
+            <fuelConsumption unit="л/100км">5.5</fuelConsumption>
+            <fuelType>Бензин</fuelType>
+            <tankCapacity unit="литра">50</tankCapacity>
+        </fuel>
+        <features>
+            <AC>да</AC>
+            <ABS>да</ABS>
+            <rearCamera>не</rearCamera>
+        </features>
+        <trunkCapacity>350</trunkCapacity>
+    </car>
+
+    <car>
+        <brand>Toyota</brand>
+        <model>CH-R</model>
+        <year>2016</year>
+        <price currency="лева">76800</price>
+        <picture>https://cdn.wheel-size.com/automobile/body/toyota-c-hr-2016-2022-1630470478.7835937.jpg</picture>
+        <color>Син</color>
+        <type>SUV</type>
+        <seats>5</seats>
+        <doors>5</doors>
+        <weight>1455</weight>
+        <dimensions>
+            <length>4390</length>
+            <width>1795</width>
+            <height>1555</height>
+        </dimensions>
+        <engine>
+            <size unit="см3">1.8</size>
+            <power unit="hp">122</power>
+            <cylinders>4</cylinders>
+        </engine>
+        <euroClass>6</euroClass>
+        <transmission type="автоматик">
+            <gears>7</gears>
+        </transmission>
+        <fuel>
+            <fuelConsumption unit="л/100км">5.3</fuelConsumption>
+            <fuelType>Хибрид/Дизел</fuelType>
+            <tankCapacity unit="литра">43</tankCapacity>
+        </fuel>
+        <features>
+            <AC>да</AC>
+            <ABS>да</ABS>
+            <rearCamera>да</rearCamera>
+        </features>
+        <trunkCapacity>1164</trunkCapacity>
+    </car>
+
+    <car>
+        <brand>VW</brand>
+        <model>Tiguan</model>
+        <year>2016</year>
+        <price currency="лева">51000</price>
+        <picture>https://images.hgmsites.net/hug/2015-volkswagen-tiguan_100475958_h.jpg</picture>
+        <color>Бял</color>
+        <type>SUV</type>
+        <seats>5</seats>
+        <doors>5</doors>
+        <weight>1539</weight>
+        <dimensions>
+            <length>4486</length>
+            <width>1829</width>
+            <height>1632</height>
+        </dimensions>
+        <engine>
+            <size unit="см3">2.0</size>
+            <power unit="hp">150</power>
+            <cylinders>4</cylinders>
+        </engine>
+        <euroClass>5</euroClass>
+        <transmission type="ръчна">
+            <gears>6</gears>
+        </transmission>
+        <fuel>
+            <fuelConsumption unit="л/100км">4.8</fuelConsumption>
+            <fuelType>Дизел</fuelType>
+            <tankCapacity unit="литра">58</tankCapacity>
+        </fuel>
+        <features>
+            <AC>да</AC>
+            <ABS>да</ABS>
+            <rearCamera>да</rearCamera>
+        </features>
+        <trunkCapacity>520</trunkCapacity>
+    </car>
+
+    <car>
+        <brand>BMW</brand>
+        <model>X5</model>
+        <year>2019</year>
+        <price currency="лева">120000</price>
+        <picture>https://www.tuningblog.eu/wp-content/uploads/2019/03/2019-G-Power-BMW-X5-xDrive50i-M50d-G05-Tuning-1.jpg</picture>
+        <color>Черен</color>
+        <type>SUV</type>
+        <seats>5</seats>
+        <doors>5/7</doors>
+        <weight>2183</weight>
+        <dimensions>
+            <length>4935</length>
+            <width>2004</width>
+            <height>1745</height>
+        </dimensions>
+        <engine>
+            <size unit="см3">3.0</size>
+            <power unit="hp">335</power>
+            <cylinders>6</cylinders>
+        </engine>
+        <euroClass>6</euroClass>
+        <transmission type="автоматик">
+            <gears>8</gears>
+        </transmission>
+        <fuel>
+            <fuelConsumption unit="л/100км">10.5</fuelConsumption>
+            <fuelType>Бензин</fuelType>
+            <tankCapacity unit="литра">83</tankCapacity>
+        </fuel>
+        <features>
+            <AC>да</AC>
+            <ABS>да</ABS>
+            <rearCamera>да</rearCamera>
+        </features>
+        <trunkCapacity>650</trunkCapacity>
+    </car>
+
+    <car>
+        <brand>Nissan</brand>
+        <model>Qashqai</model>
+        <year>2012</year>
+        <price currency="лева">48000</price>
+        <picture>https://preview2.netcarshow.com/Nissan-Qashqai-2012-hd.jpg</picture>
+        <color>Червен</color>
+        <type>SUV</type>
+        <seats>5</seats>
+        <doors>5</doors>
+        <weight>1297</weight>
+        <dimensions>
+            <length>4331</length>
+            <width>1783</width>
+            <height>1615</height>
+        </dimensions>
+        <engine>
+            <size unit="см3">1.6</size>
+            <power unit="hp">114</power>
+            <cylinders>4</cylinders>
+        </engine>
+        <euroClass>5</euroClass>
+        <transmission type="ръчна">
+            <gears>5</gears>
+        </transmission>
+        <fuel>
+            <fuelConsumption unit="л/100км">6.6</fuelConsumption>
+            <fuelType>Бензин</fuelType>
+            <tankCapacity unit="литра">65</tankCapacity>
+        </fuel>
+        <features>
+            <AC>да</AC>
+            <ABS>да</ABS>
+            <rearCamera>да</rearCamera>
+        </features>
+        <trunkCapacity>388</trunkCapacity>
+    </car>
+</showroom>

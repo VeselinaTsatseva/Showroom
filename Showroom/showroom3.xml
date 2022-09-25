@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE showroom SYSTEM "validation.dtd">
+
+<showroom>
+    <car>
+        <brand>Land Rover</brand>
+        <model>Range Rover Evoque</model>
+        <year>2015</year>
+        <price currency="лева">99123</price>
+        <picture>http://carsot.com/images/land-rover-range-rover-i-1970-1996-suv-5-door-exterior-3.jpg</picture>
+        <color>Бял</color>
+        <type>SUV</type>
+        <seats>5</seats>
+        <doors>5</doors>
+        <weight>1670</weight>
+        <dimensions>
+            <length>4365</length>
+            <width>1900</width>
+            <height>1635</height>
+        </dimensions>
+        <engine>
+            <size unit="см3">2.2</size>
+            <power unit="hp">190</power>
+            <cylinders>4</cylinders>
+        </engine>
+        <euroClass>5</euroClass>
+        <transmission type="автоматик">
+            <gears>9</gears>
+        </transmission>
+        <fuel>
+            <fuelConsumption unit="л/100км">5.7</fuelConsumption>
+            <fuelType>Дизел</fuelType>
+            <tankCapacity unit="литра">60</tankCapacity>
+        </fuel>
+        <features>
+            <AC>да</AC>
+            <ABS>да</ABS>
+            <rearCamera>да</rearCamera>
+        </features>
+        <trunkCapacity>575</trunkCapacity>
+    </car>
+</showroom>

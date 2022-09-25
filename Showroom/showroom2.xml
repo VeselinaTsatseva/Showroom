@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE showroom SYSTEM "validation.dtd">
+
+<showroom>
+    <car>
+        <brand>Toyota</brand>
+        <model>Aygo</model>
+        <year>2007</year>
+        <price currency="лева">15800</price>
+        <picture>https://www.carjunction.com/car_images2/40011_51883/42951875-1.jpg</picture>
+        <color>Червен</color>
+        <type>Хечбек</type>
+        <seats>4</seats>
+        <doors>5</doors>
+        <weight>890</weight>
+        <dimensions>
+            <length>3410</length>
+            <width>1615</width>
+            <height>1465</height>
+        </dimensions>
+        <engine>
+            <size unit="см3">1.4</size>
+            <power unit="hp">54</power>
+            <cylinders>4</cylinders>
+        </engine>
+        <euroClass>5</euroClass>
+        <transmission type="ръчна">
+            <gears>5</gears>
+        </transmission>
+        <fuel>
+            <fuelConsumption unit="л/100км">4.1</fuelConsumption>
+            <fuelType>Дизел</fuelType>
+            <tankCapacity unit="литра">35</tankCapacity>
+        </fuel>
+        <features>
+            <AC>да</AC>
+            <ABS>да</ABS>
+            <rearCamera>не</rearCamera>
+        </features>
+        <trunkCapacity>168</trunkCapacity>
+    </car>
+</showroom>

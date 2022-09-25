@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE showroom SYSTEM "validation.dtd">
+
+<showroom>
+<car>
+    <brand>Opel</brand>
+    <model>Astra Sports Tourer</model>
+    <year>2019</year>
+    <price currency="лева">15800</price>
+    <picture>https://4.bp.blogspot.com/-lV0U9Q_Gw6c/ViD9DCAYgrI/AAAAAAAAQIk/sCprjBtMzWY/s1600/opel-astra-sports-tourer-gris-mineral-k.png</picture>
+    <color>Металик</color>
+    <type>Комби</type>
+    <seats>5</seats>
+    <doors>5</doors>
+    <weight>1295</weight>
+    <dimensions>
+        <length>4702</length>
+        <width>1809</width>
+        <height>1510</height>
+    </dimensions>
+    <engine>
+        <size unit="см3">1.2</size>
+        <power unit="hp">145</power>
+        <cylinders>3</cylinders>
+    </engine>
+    <euroClass>6</euroClass>
+    <transmission type="ръчна">
+        <gears>5</gears>
+    </transmission>
+    <fuel>
+        <fuelConsumption unit="л/100км">4.8</fuelConsumption>
+        <fuelType>Бензин</fuelType>
+        <tankCapacity unit="литра">48</tankCapacity>
+    </fuel>
+    <features>
+        <AC>да</AC>
+        <ABS>да</ABS>
+        <rearCamera>да</rearCamera>
+    </features>
+    <trunkCapacity>540</trunkCapacity>
+</car>
+</showroom>
